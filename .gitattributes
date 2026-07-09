@@ -1,0 +1,44 @@
+# Unity text assets
+*.cs text eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+*.compute text eol=lf
+*.asmdef text eol=lf
+*.asmref text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.meta text eol=lf
+*.mat text eol=lf
+*.controller text eol=lf
+*.anim text eol=lf
+*.overrideController text eol=lf
+*.spriteatlas text eol=lf
+*.physicsMaterial2D text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.tga binary
+*.tif binary
+*.tiff binary
+*.psd binary
+*.fbx binary
+*.pdf binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.mp4 binary
+*.mov binary
+*.dll binary
+*.so binary
+*.a binary
+*.bundle binary
+*.unitypackage binary
