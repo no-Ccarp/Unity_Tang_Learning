@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Lesson30 : MonoBehaviour
 {
-    private Animation animation;
+    private new Animation animation;
 
 
     // Start is called before the first frame update

@@ -10,11 +10,14 @@ public class PlayerObject : MonoBehaviour
     private SpriteRenderer sr;
     private Rigidbody2D rigid;
 
+    private Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         rigid = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
 // Update is called once per frame
@@ -22,6 +25,9 @@ void Update()
     {
         
         h = Input.GetAxis("Horizontal");
+
+        animator.SetInteger("xSpeed", (int)h);
+        animator.SetInteger("ySpeed", Mathf.CeilToInt(rigid.velocity.y));
         //this.transform.Translate(moveSpeed * Time.deltaTime * Vector3.right * h);
 
         //重力会给予物体y方向的速度，这样的写法能够保证y方向上的力不变
